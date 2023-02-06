@@ -27,7 +27,39 @@ print(x)
 
 
 
+def kiIr(Lista):
+    for x in Lista:
+        print(x,end=",")
+    print()
 
+print("-------------------------------")
+l=list()
+l=[1,12,2,3]
+print(l.index(12))
+print("-------------------------------")
 
+def kiIr2(lista):
+    for x in range(len( lista)):
+        print(i.lista(1))
 
+en_Listam=(1,2,3,4,2,3)
+print(type(en_Listam))
+print(en_Listam)
+
+kiIr(en_Listam)
+kiIr2(en_Listam)
+
+en_Listam=[1,2,3,4,2,3]
+print(type(en_Listam))
+print(en_Listam)
+
+kiIr(en_Listam)
+kiIr2(en_Listam)
+
+en_Listam={1,2,3,4,2,3}
+print(type(en_Listam))
+print(en_Listam)
+
+kiIr(en_Listam)
+#kiIr2(en_Listam)
 
